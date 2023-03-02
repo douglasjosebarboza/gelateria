@@ -1,5 +1,13 @@
+import Header from "../../components/header"
+import Banner from "../../components/main/banner"
+import Sabores from "../../components/main/sabores"
+
 export default function Home() {
     return(
-       <h1>home</h1> 
+        <section>
+            <Header/>
+            <Banner/>
+            <Sabores/>
+        </section>
     )
 }
