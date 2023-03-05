@@ -1,10 +1,8 @@
 export default function Sobre() {
     return (
-        <section>
-          <div>
-              <img src="/assets/sobre-image.jpg" alt="Bolas de Sorvetes" />
-          </div>
-          <div>
+        <section className="secoes">
+          <img src="/assets/sobre-image.jpg" alt="Bolas de Sorvetes" />
+          <div className="text">
             <h2>SOBRE NÓS</h2>
             <span>Alegria em cada casquinha!</span>
             <p>

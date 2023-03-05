@@ -1,0 +1,37 @@
+footer {
+    background-color: black;
+}
+
+footer .limitar-secao {
+    display: flex;
+    color: white;
+    padding: 25px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infos-footer img {
+    width: auto;
+    height: 100px;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center !important;
+}
+
+.direitos a {
+    color: white;
+}
+
+.direitos a:hover {
+    color: rgb(249, 219, 121);
+}
+
+@media (max-width: 768px) {
+    .infos-footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+}

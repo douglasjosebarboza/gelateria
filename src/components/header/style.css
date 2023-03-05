@@ -12,6 +12,9 @@ header .limitar-secao{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 header img {
@@ -26,3 +29,25 @@ header ul {
     gap: 75px;
 }
 
+header li {
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    header .limitar-secao {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    header nav {
+        padding: 10px 50px;
+        border-top: 1px solid gray;
+    }
+
+
+}

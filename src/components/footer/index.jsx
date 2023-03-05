@@ -1,7 +1,9 @@
+import "./style.css"
+
 export default function Footer() {
     return (
         <footer>
-            <div>
+            <div className="limitar-secao infos-footer">
                 <img src="/assets/logo.png" alt="Logo Pequena" />
                 <div>
                     <h3>ENDEREÇO</h3>
@@ -19,7 +21,7 @@ export default function Footer() {
                     <p>10:00 - 22:00</p>
                 </div>
             </div>
-            <div>
+            <div className="limitar-secao direitos">
                 <p>Gekateria. Orgulhosamente desenvolvido por <a href="https://github.com/douglasjosebarboza" target={"_blank"}>Douglas José Barboza</a></p>
             </div>
         </footer>

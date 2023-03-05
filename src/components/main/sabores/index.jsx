@@ -1,10 +1,10 @@
+import "./style.css"
+
 export default function Sabores() {
     return (
-        <section>
-          <div>
-              <img src="/assets/banner-sabores.jpg" alt="Bolas de Sorvetes" />
-          </div>
-          <div>
+        <section className="secoes">
+          <img src="/assets/banner-sabores.jpg" alt="Bolas de Sorvetes" />
+          <div className="text">
             <h2>NOSSOS SABORES</h2>
             <span>Novos e deliciosos!</span>
             <p>

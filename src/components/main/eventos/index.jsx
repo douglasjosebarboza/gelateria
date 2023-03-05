@@ -1,7 +1,7 @@
 export default function Eventos() {
     return (
-        <section>
-          <div>
+        <section className="secoes eventos">
+          <div className="text">
             <h2>NOSSOS EVENTOS</h2>
             <span>Delicias com sorvete!</span>
             <p>
@@ -10,9 +10,7 @@ export default function Eventos() {
                 sorvete da sua vida! Venha nos conhecer e passar um tempo aqui com a gente.
             </p>
           </div>
-          <div>
-              <img src="/assets/eventos-image.jpg" alt="Bolas de Sorvetes" />
-          </div>
+          <img src="/assets/eventos-image.jpg" alt="Bolas de Sorvetes" />
         </section>
     )
 }
