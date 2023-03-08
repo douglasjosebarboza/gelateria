@@ -1,0 +1,155 @@
+.capa {
+    background-image: url("../../../../assets/banner-home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    background-color: rgb(249, 219, 121);
+    margin-top: 80px;
+}
+
+.capa div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.capa h1 {
+    font-size: 100px;
+    color: white;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+.secoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.secoes .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.secoes img{
+  width: 50%;
+}
+
+.secoes h2 {
+  font-size: 35px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.secoes span {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.secoes p {
+  padding: 0 100px;
+  line-height: 26px;
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 1140px) {
+
+  .text h2 {
+      font-size: 20px;
+  }
+  .text span {
+      margin: 0;
+      font-size: 18px;
+  }
+
+  .text p {
+      margin: 0;
+      padding: 0px 50px;
+      font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .secoes {
+      flex-direction: column;
+  }
+
+  .secoes img {
+      width: 100%;
+  }
+
+  .text {
+      width: 100% !important;
+      padding: 75px 0 !important;
+      text-align: center;
+  }
+
+  .text h2 {
+      font-size: 36px;
+  }
+  .text span {
+      margin-top: 10px;
+      font-size: 18px;
+  }
+
+  .text p {
+      margin: 40px 0;
+      padding: 0px 50px;
+      font-size: 16px;
+  }
+
+  .eventos {
+      flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+    .capa h1 {
+      font-size: 60px;
+    }
+  
+    .secao-nossos-sabores {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .secao-nossos-sabores img {
+      width: 100%;
+    }
+  
+    .texto-secao-nossos-sabores,
+    .texto-secao-nossos-eventos,
+    .texto-secao-sobre-nos {
+      width: 100%;
+      padding: 100px 10px;
+      text-align: center;
+    }
+  
+    .secao-nossos-eventos {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .secao-nossos-eventos img {
+      width: 100%;
+    }
+  
+    .secao-sobre-nos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .secao-sobre-nos img {
+      width: 100%;
+    }
+  }

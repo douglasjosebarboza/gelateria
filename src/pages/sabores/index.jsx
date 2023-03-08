@@ -1,12 +1,12 @@
 import Header from "../../components/header"
-import Banner from "../../components/main/sabores/banner"
+import Main from "../../components/main/sabores"
 import Footer from "../../components/footer"
 
 export default function Sabores() {
     return(
         <section>
             <Header />
-            <Banner />
+            <Main />
             <Footer />
         </section>
     )
