@@ -68,4 +68,8 @@
     .capa-sabores h1 {
       font-size: 60px;
     }
+
+    .cards {
+        width: 80%;
+    }
 }
