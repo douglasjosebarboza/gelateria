@@ -3,7 +3,7 @@ import "./style.css"
 export default function Main() {
     return (
         <section>
-            <section className="capa">
+            <section className="capa-home">
                 <div>
                     <h1>SORVETE ARTESANAL</h1>
                 </div>

@@ -1,5 +1,5 @@
-.capa {
-    background-image: url("../../../../assets/banner-home.png");
+.capa-home {
+    background-image: url("./assets/banner-home.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -8,7 +8,7 @@
     margin-top: 80px;
 }
 
-.capa div {
+.capa-home div {
     display: flex;
     width: 100%;
     height: 100%;
@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.capa h1 {
+.capa-home h1 {
     font-size: 100px;
     color: white;
     text-shadow: 3px 5px 2px #474747;
@@ -114,7 +114,7 @@
 
 @media screen and (max-width: 768px){
 
-    .capa h1 {
+    .capa-home h1 {
       font-size: 60px;
     }
   
