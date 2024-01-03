@@ -1,4 +1,4 @@
-# Clínica Médica Life
+# Gelateria
 
 ![gelateria](https://github.com/douglasjosebarboza/gelateria/assets/86023441/f450d552-caf8-4489-8714-2dc90381c04f)
 
