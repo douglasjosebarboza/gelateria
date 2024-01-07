@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="limitar-secao direitos">
-                <p>Gekateria. Orgulhosamente desenvolvido por <a href="https://github.com/douglasjosebarboza" target={"_blank"}>Douglas José Barboza</a></p>
+                <p>Gelateria. Orgulhosamente desenvolvido por <a href="https://github.com/douglasjosebarboza" target={"_blank"}>Douglas José Barboza</a></p>
             </div>
         </footer>
     )
